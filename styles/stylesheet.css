@@ -1,0 +1,58 @@
+html {
+  font-size: 16px;
+}
+
+div.container {
+    width: 75%;
+    border: 2px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: steelblue;
+    clear: left;
+    text-align: center;
+}
+
+
+nav {
+    float: left;
+    max-width: 300px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: fantasy;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+nav figure {
+    text-decoration: none;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+article {
+    margin-left: 300px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.article {
+  font-family: cursive;
+  font-style: normal;
+}
+
+.article h1 {
+  font-size: 1.5rem;
+}
+
+.article p {
+  font-size: 1rem;
+}
