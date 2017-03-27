@@ -56,3 +56,7 @@ article {
 .article p {
   font-size: 1rem;
 }
+
+figcaption {   color: black   font-size: 150%;   transition:color 0.1s ease-in;  }
+figcaption:hover { color: red; transform: scale(1.1);   }
+i {color: #000;}
